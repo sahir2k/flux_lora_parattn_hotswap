@@ -1,0 +1,17 @@
+torch==2.6.0
+typing_extensions
+torchvision
+accelerate
+git+https://github.com/huggingface/diffusers
+para-attn
+safetensors
+peft
+protobuf
+opencv-python-headless
+numpy
+scipy
+matplotlib
+sentencepiece
+transformers
+huggingface-hub
+pillow 
