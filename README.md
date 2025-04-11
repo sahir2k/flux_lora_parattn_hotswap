@@ -1,5 +1,7 @@
 Quick Script for Fast [FLUX.1 Dev](https://github.com/black-forest-labs/flux) LoRA image generation with [ParaAttention](https://github.com/chengzeyi/ParaAttention) and diffusers [hotswapping](https://huggingface.co/docs/diffusers/main/en/using-diffusers/loading_adapters#lora).
 
+> **Note**: This is a sample script. For persistent and serviceable inference processes, consider using `torch.multiprocessing` to write your own inference processor. This approach can eliminate the overhead of repeatedly launching processes and loading/recompiling models.
+
 ## Performance
 
 - 2 seconds generation time on 4xA100 SXM
@@ -33,3 +35,5 @@ Follow the prompts to:
 3. Set inference steps
 
 Output is saved as `output.png`
+
+> **Note**: FLUX.1 is for non-commercial use only.
